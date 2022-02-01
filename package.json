@@ -1,0 +1,27 @@
+{
+  "name": "luca-schedule",
+  "version": "1.0.0",
+  "description": "A cron-like scheduler that runs every morning at 12:01 AM to check for expiring rental agreements.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "luca"
+  ],
+  "author": {
+    "name": "Daniel Sprohar"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "dotenv": "^15.0.0",
+    "node-schedule": "^2.1.0",
+    "pg": "^8.7.1",
+    "winston": "^3.5.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
